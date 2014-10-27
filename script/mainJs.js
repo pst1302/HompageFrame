@@ -37,7 +37,7 @@ function changeText(id) {
         jindo.$("imageLink").href = "#move_" + id;
         jindo.$("textLink").href = "#move_" + id;
 
-        // 텍스트 변경 : 요청을 통해 변경할 부분
+        // 텍스트 변경 : 나중에 Ajax을 이용한 request로 요청
         jindo.$Element("title_domain").html("<h3>" + id + "의 TITLE </h3>");
         jindo.$Element("story_domain").html("<h4>글내용(" + id +"이 올라와 있습니다.)");
     }).attach(jindo.$(id),"click");
