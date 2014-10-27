@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+* { margin: 0; padding: 0; outline: 0; }
+
+body, html { height: 100%; }
+
+body {
+    font-size: 12px;
+    line-height: 22px;
+    font-family: verdana, arial, sans-serif;
+    color: #727272;
+    background: url(../images/body-pattern.png) repeat 0 0;
+    min-width: 100%;
+}
+
+a { color: #00acef; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+a img { border: 0; }
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+
+.shell { width: 981px; margin: 0 auto; }
+.container { background: url(../images/container.png) repeat-y center 0; }
+
+
+#header { margin-bottom: 15px;  position: relative; padding-top: 25px;  height: 43px; background: url(../images/border-title.png) repeat-x 0 bottom; }
+#logo { width: 129px; font-size: 0; line-height: 0; position:absolute; top: 23px; left: 21px; }
+#logo a { height: 26px; display: block; background: url(../images/logo.gif) no-repeat 0 0; text-indent: -4000px; }
+
+#navigation { padding:0 21px;  margin-bottom: 15px; }
+#navigation ul { list-style:none; list-style-position: outside; }
+#navigation ul li { padding: 0 10px; float: left; font-family: 'Jeju Godic', sans-serif; font-size: 15px; font-weight: 500; }
+#navigation ul li:first-child { padding-left: 0; }
+#navigation ul li a { color: #4a4a4a; padding: 0 7px; display:block; height: 21px; line-height: 21px; border: 2px solid transparent; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; }
+#navigation ul li.active a,
+#navigation ul li a:hover { border: 2px solid #029cdb;  background: url(../images/nav-btn.png) repeat-x 0 0; color:#fff; text-decoration: none; }
+#navigation a.nav-btn { display:none; }
+
+.summary-holder { position: relative; margin-bottom:30px;   }
+
+.summary { background: url(../images/slider-bg.jpg) no-repeat 0 0; width: 938px; height: 417px; position:relative; overflow: hidden; padding:0 21px; }
+.summary .image_domain { width: 340px; height: 400px; float : left; margin-top : 13px; padding-right : 10px; border-right : 1px grey dotted;}
+.summary .image_domain .jisung{ width: 340px; height:400px;  margin : 0 2px 0 0; border-right : 5px green dotted; }
+.summary .text_domain { margin : 30px 0 0 400px; }
+
+.summary h4 { color:#fff; font-size: 20px; font-family: 'Nanum Pen Script', sans-serif; }
+.summary h3 { color:#fff; font-family: 'Nanum Pen Script', sans-serif; font-size: 40px; line-height:56px; padding-bottom: 12px; }
+.summary p { color:#fff; }
+.summary p a { color:#fff; text-decoration: underline; }
+.summary p a:hover { text-decoration: none; }
+
+#thumbs-wrapper { width: 434px; padding: 0 20px; position: absolute; bottom: 10px; right: 21px; overflow: hidden; }
+#thumbs-wrapper .thumb_active { width :120px; height : 85px; }
+
+.main { padding: 0 20px; background : url(../images/main_back.JPG) repeat; }
+.content { padding : 20px; }
+
+.main h3 { font-size: 30px; font-family: 'Nanum Pen Script', sans-serif; color:#4a4a4a; font-weight: 500; padding-bottom: 12px; margin-bottom: 8px; }

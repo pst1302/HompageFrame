@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <title>이길복 : 홈페이지 형식</title>
+    <script type="text/javascript" src="script/jindo.desktop.ns.js"></script>
+    <script type="text/javascript" src="script/mainJs.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body onload="giveEvent()">
+    <div class="wrapper">
+        <!-- 쉘 시작 -->
+        <div class="shell">
+            <div class="container">
+                <!-- 헤더시작 -->
+                <header id="header">
+                    <h1 id="logo">
+                        <a herf="#">Kilbok</a>
+                    </h1>
+                </header>
+                <!-- 헤더테그 종료 -->
+                <!-- 네비게이션 태그 시작 -->
+                <nav id="navigation">
+                    <a herf="#" class="nav-btn">
+                        "HOME"
+                    <span></span>
+                    </a>
+                    <ul>
+                        <li class="active first">
+                            <a herf="#">홈</a>
+                        </li>
+                        <li>
+                            <a herf="#">메뉴1</a>
+                        </li>
+                        <li>
+                            <a herf="#">메뉴2</a>
+                        </li>
+                        <li>
+                            <a herf="#">메뉴3</a>
+                        </li>
+                        <!-- 추가 메뉴 존재시 추가 -->
+                    </ul>
+                    <div class="cl">&nbsp;</div>
+                </nav>
+                <!-- 네비게이션 종료 -->
+                <!-- 컨텐츠 요약 화면 -->
+                <div class="summary-holder">
+                    <div class="summary">
+                        <div id="image_domain" class="image_domain">
+                            <a id ="imageLink" href="#move_thumb1"><img id = "main_image" class="main_image" src="images/jisung.jpg"></a>
+                        </div>
+                        <div id="text_domain" class="text_domain">
+                            <a id ="textLink" href ="#move_thumb1">
+                                <!-- 글제목을 쓰는곳 -->
+                                <span id="title_domain"><h3>thumb1의 title</h3></span>
+                                <!-- 글 내용을 쓰는곳 -->
+                                <span id="story_domain">
+                                    <h4>
+                                        <p>글 내용(Thumb1이 올라와 있습니다)</p>
+                                    </h4>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 썸네일 이미지 -->
+                    <div id="thumbs-wrapper">
+                        <!-- 각 썸네일의 src에 해당 이미지를 넣는다. -->
+                        <a herf ="#"><img id="thumb1" class="thumb1 thumb_active" src="images/thumb_jisung.png"/></a>
+                        <a herf ="#"><img id="thumb2" class="thumb2" src="images/thumb_lee.jpg"/></a>
+                        <a herf ="#"><img id="thumb3" class="thumb3"  src="images/thumb_ki.jpg"/></a>
+                        <a herf ="#"><img id="thumb4" class="thumb4" src="images/thumb_son.jpg"/></a>
+                    </div>
+                    <!-- 썸네일 이미지 종료 -->
+                </div>
+                <!-- 컨텐츠 요약 화면 종료 -->
+                <!-- Main 시작 -->
+                <div class="main">
+                    <!-- Thumb1 내용 -->
+                    <div class="content">
+                        <a name="move_thumb1"></a>
+                        <h3>Thumb1의 콘텐츠</h3>
+                        <iframe id="thumb1_media" width="560" height="315" src="http://www.youtube.com/embed/Imo4V9i3tmY" frameborder="0"></iframe>
+                    </div>
+                    <!-- Thumb2 내용 -->
+                    <div class="content">
+                        <a name="move_thumb2"></a>
+                        <h3>Thumb2의 콘텐츠</h3>
+                        <iframe width="560" height="315" src="http://www.youtube.com/embed/qiT2voM-xz8" frameborder="0"></iframe>
+                    </div>
+                    <!-- Thumb3 내용 -->
+                    <div class="content">
+                        <a name="move_thumb3"></a>
+                        <h3>Thumb3의 콘텐츠</h3>
+                        <iframe width="560" height="315" src="http://www.youtube.com/embed/ve0URQKlAVU" frameborder="0"></iframe>
+                    </div>
+                    <!-- Thumb4 내용 -->
+                    <div class="content">
+                        <a name="move_thumb4"></a>
+                        <h3>Thumb4의 콘텐츠</h3>
+                        <iframe width="560" height="315" src="http://www.youtube.com/embed/2n-m-Vz2Qc0" frameborder="0"></iframe>
+                    </div>
+                </div>
+                <!-- Main 종료 -->
+            </div>
+            <!-- Container 종료 -->
+        </div>
+        <!-- end of Shell -->
+    </div>
+</body>
+</html>
